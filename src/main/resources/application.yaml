@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  tomcat:
+    basedir: "/"
+    
+spring:
+  application:
+    name: kubernetes-java-client
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 8081
